@@ -1,8 +1,6 @@
 from typing import Optional
 from typing_extensions import TypedDict
-
 from models.schemas import ClinicalData
-
 
 class CareNoteState(TypedDict):
     clinical_note: str
